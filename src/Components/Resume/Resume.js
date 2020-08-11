@@ -1,9 +1,19 @@
 import React from "react";
+import Pdf from "./files/Hunter_Scheel_Resume.pdf";
 export default function Resume() {
   return (
     <div>
       <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <div className="content justify-content-center row my-4">
+          <a
+            href={Pdf}
+            target="_blank"
+            className="container col-10 justify-content-center text-center"
+          >
+            {" "}
+            <button className="col-12 btn btn-danger btn-lg">VIEW PDF</button>
+          </a>
+        </div>
         <div
           className="container my-4"
           style={{

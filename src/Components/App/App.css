@@ -14,6 +14,30 @@
 .header {
   border-bottom-right-radius: 10px;
 }
+.btn {
+  background-color: #3a1805;
+  color: wheat;
+}
+.btn:hover {
+  color: white;
+  font-weight: bold;
+}
 .active {
-  background-color: #4e0052;
+  background-color: wheat;
+  color: #3a1805;
+  border-bottom: none;
+}
+.active:focus {
+  border-bottom: none;
+  box-shadow: none;
+}
+.active:hover {
+  color: black;
+}
+a {
+  color: wheat;
+}
+a:hover {
+  color: wheat;
+  font-weight: bold;
 }
