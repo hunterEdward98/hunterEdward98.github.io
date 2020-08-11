@@ -1,12 +1,19 @@
 .body {
-  text-align: center;
-  color: #4e0052;
-  background-color: #94a7ad;
+  color: navy;
+  background-color: wheat;
   height: 100%;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
 }
 .App {
   color: #eee1b3;
-  background-color: #8e4a49;
   text-align: center;
-  width: 40%;
+  background-color: #8e4a49;
+}
+.header {
+  border-bottom-right-radius: 10px;
+}
+.active {
+  background-color: #4e0052;
 }
