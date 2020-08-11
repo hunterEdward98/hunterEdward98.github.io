@@ -3,13 +3,55 @@
   background-color: wheat;
   height: 100%;
 }
+.devicon {
+  font-size: 5rem;
+  background-color: #3a1805;
+  color: lightseagreen;
+}
+@keyframes rainbow {
+  0% {
+    color: lightseagreen;
+  }
+  15% {
+    color: tomato;
+  }
+  30% {
+    color: magenta;
+  }
+  45% {
+    color: deepskyblue;
+  }
+  60% {
+    color: crimson;
+  }
+  75% {
+    color: chartreuse;
+  }
+  90% {
+    color: fuchsia;
+  }
+  100% {
+    color: lightseagreen;
+  }
+}
 * {
   font-family: "Times New Roman", Times, serif;
+}
+.devicon:hover {
+  font-size: 5rem;
+  animation-name: rainbow;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: linear;
 }
 .App {
   color: #eee1b3;
   text-align: center;
   background-color: #8e4a49;
+}
+.Head {
+  color: lightseagreen;
+  background-color: #3a1805;
 }
 .header {
   border-bottom-right-radius: 10px;

@@ -14,6 +14,7 @@ import {
   Button,
 } from "@chakra-ui/core";
 import Resume from "../Resume/Resume";
+import Tech from "../Tech/Tech";
 class App extends React.Component {
   state = {
     component: "Biography",
@@ -59,9 +60,7 @@ class App extends React.Component {
                 <Resume />
               </Route>
               <Route exact path="/tech">
-                <h1 className="text-center my-5">
-                  This Page is under construction
-                </h1>
+                <Tech />
               </Route>
             </div>
           </div>
