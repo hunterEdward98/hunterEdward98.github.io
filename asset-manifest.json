@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27103ab3.chunk.css",
+    "main.js": "/static/js/main.b855c759.chunk.js",
+    "main.js.map": "/static/js/main.b855c759.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.28884bad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.28884bad.js.map",
+    "static/js/2.04e3e65c.chunk.js": "/static/js/2.04e3e65c.chunk.js",
+    "static/js/2.04e3e65c.chunk.js.map": "/static/js/2.04e3e65c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a361fab4ae89747962922190463820cf.js": "/precache-manifest.a361fab4ae89747962922190463820cf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.27103ab3.chunk.css.map": "/static/css/main.27103ab3.chunk.css.map",
+    "static/js/2.04e3e65c.chunk.js.LICENSE.txt": "/static/js/2.04e3e65c.chunk.js.LICENSE.txt",
+    "static/media/Hunter3.jpg": "/static/media/Hunter3.56e6460b.jpg",
+    "static/media/Hunter_Scheel_Resume.pdf": "/static/media/Hunter_Scheel_Resume.b6fc0ccd.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28884bad.js",
+    "static/js/2.04e3e65c.chunk.js",
+    "static/css/main.27103ab3.chunk.css",
+    "static/js/main.b855c759.chunk.js"
+  ]
+}
