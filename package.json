@@ -2,7 +2,7 @@
   "name": "hunteredward98",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hunteredward98.github.io",
+  "homepage": "https://hunteredward98.github.io/#/tech",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.34",
