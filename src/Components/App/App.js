@@ -1,18 +1,14 @@
 import React from "react";
 import "./App.css";
-import { HashRouter as Router, NavLink, Route } from "react-router-dom";
+import {
+  HashRouter as Router,
+  NavLink,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import headshot from "../../Hunter3.jpg";
 import Bio from "../Bio/Bio";
 import Projects from "../Projects/Projects";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionHeader,
-  AccordionPanel,
-  AccordionIcon,
-  Box,
-  Button,
-} from "@chakra-ui/core";
 import Resume from "../Resume/Resume";
 import Tech from "../Tech/Tech";
 class App extends React.Component {
@@ -50,6 +46,9 @@ class App extends React.Component {
               </div>
             </div>
             <div className="container">
+              <Route exact path="/">
+                <Redirect to="/tech"></Redirect>
+              </Route>
               <Route exact path="/bio">
                 <Bio />
               </Route>
