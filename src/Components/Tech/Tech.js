@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
+  AccordionIcon,
 } from "@chakra-ui/core";
 const Projects = () => {
   return (

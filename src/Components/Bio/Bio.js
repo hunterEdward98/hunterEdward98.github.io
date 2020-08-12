@@ -1,12 +1,14 @@
 import React from "react";
 const Bio = () => {
   return (
-    <div classname="container">
-      I was Born in Fargo, ND, and always had a noticably large interest in
-      computers. Since middle school,I've been learning how various coding
-      languages work, starting with html. In high school, I took an introduction
-      to Java course that convinced me to pursue programming as a career. In
-      College, I participated in various clubs , such as the Cybersecurity
+    <div classname="d-flex row justify-content-center">
+      <div className="Head h3 mt-3 col-12">Early Influence</div>I was Born in
+      Fargo, ND, and always had a noticably large interest in computers. Since
+      middle school, I've been learning how various coding languages work,
+      starting with html. In high school, I took an introduction to Java course
+      that convinced me to pursue programming as a career.
+      <div className="Head h3 mt-3 col-12">Recent Years</div>
+      In College, I participated in various clubs , such as the Cybersecurity
       Student Association, where I further developed relevant skills by
       participating in collaborative competitions such as NCL(National Cyber
       League). After two years at NDSU, I decided the traditional college route
