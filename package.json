@@ -5,18 +5,13 @@
   "homepage": "https://hunteredward98.github.io/#/tech",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
-    "@emotion/core": "^10.0.34",
-    "@emotion/styled": "^10.0.27",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "emotion-theming": "^10.0.27",
-    "gh-pages": "^3.1.0",
-    "react": "^16.13.1",
+    "@emotion/react": "^11.11.4",
+    "dayjs": "^1.11.10",
+    "gh-pages": "^6.1.1",
+    "react": "^16.14.0",
     "react-devicon": "^0.1.9",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

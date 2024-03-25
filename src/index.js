@@ -5,8 +5,8 @@ import App from "./Components/App/App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <React.StrictMode style="height: 100%;">
-    <App style="height: 100%;" />
+  <React.StrictMode>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

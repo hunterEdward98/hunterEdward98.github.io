@@ -8,6 +8,7 @@ export default function Resume() {
           <a
             href={Pdf}
             target="_blank"
+            rel="noreferrer"
             className="container col-10 justify-content-center text-center"
           >
             {" "}
@@ -35,7 +36,7 @@ export default function Resume() {
                 <b>Hunter Scheel</b>
               </div>
               <p>
-                8306 River View Rd, Fargo, ND
+                3207 23rd Ave S, Fargo, ND
                 <br />
                 hunter.scheel@outlook.com
                 <br />
@@ -72,8 +73,8 @@ export default function Resume() {
             <h3>Professional Summary</h3>
             <p>
               Ready to bring relevent knowledge and skills to any team.
-              Well-versed in Coding and Team Leading techniques. Excellent
-              relationship-building and decision-making skills.
+              Well-versed in Team Building techniques. Excellent problem-solving
+              and coding skills.
             </p>
             <hr size={1} />
             <h3>Skills</h3>
@@ -88,28 +89,23 @@ export default function Resume() {
                 className="mx-3"
                 style={{ textAlign: "center", width: "50%" }}
               >
-                Javascript with React, Redux, Bootstrap, Material UI
+                TS/JS React, Redux, and Sagas,
+                <br /> C# with Dotnet Core &amp; Dotnet Framework
+                <br /> SQL with Postgres &amp; DB2
                 <br />
-                <i style={{ fontSize: 14, color: "navy" }}>Proficient</i>
+                <i style={{ fontSize: 14, color: "navy" }}>Advanced</i>
                 <br />
                 <hr />
-                SQL with Postgres <br />
-                jQuery, HTML, CSS, and BASH
-                <br />
-                <i style={{ fontSize: 14, color: "navy" }}> Practiced</i>
               </div>
               <div
                 className="mx-3"
                 style={{ textAlign: "center", width: "50%" }}
               >
-                Java, Python, and Git
+                Java, jQuery, HTML, CSS, Python, and BASH
                 <br />
-                <i style={{ fontSize: 14, color: "navy" }}>Familiar</i>
-                <br />
-                <hr />
-                C++ and C# <br />
-                <i style={{ fontSize: 14, color: "navy" }}>some knowledge</i>
+                <i style={{ fontSize: 14, color: "navy" }}> Some Knowledge</i>
               </div>
+              <br />
             </div>
             <div style={{ textAlign: "center", display: "inline" }}>
               <hr size={1} />
@@ -127,18 +123,12 @@ export default function Resume() {
                   </h5>
                   <ul style={{ listStyleType: "disc" }}>
                     <li>
-                      Used industry-relevant tools including node.js and React
-                    </li>
-                    <li>
                       Practiced real-world skills, including project
                       communication and task prioritization
                     </li>
                     <li>
-                      Gained exposure to industry processes and techniques
-                    </li>
-                    <li>
                       Demonstrated working ability to build full stack web
-                      applications
+                      applications with a modern web development stack (PERN)
                     </li>
                   </ul>
                 </li>
@@ -166,10 +156,39 @@ export default function Resume() {
                 <div style={{ textAlign: "left" }}>
                   <ul style={{ listStyleType: "circle" }}>
                     <li>
+                      <h5 size={-3}>
+                        Software Developer
+                        <div style={{ fontSize: 14 }}>
+                          <i>Scheels, November 2020-Present</i>
+                        </div>
+                      </h5>
+                      <ul style={{ listStyleType: "disc" }}>
+                        <li>
+                          Lead the efforts within the internal development teams
+                          in modernizing web applications for stability and
+                          readability
+                        </li>
+                        <li>
+                          Provided solutions in a timely manner when approached
+                          with development and workflow issues.
+                        </li>
+                        <li>
+                          Created, hosted, and maintained generic components,
+                          functions, and templates on NPM to reduce setup time
+                          for new projects.
+                        </li>
+                        <li>
+                          Lead code reviews to go on Typescripty and React best
+                          practices, giving specific feedback on areas of
+                          improvement.
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
                       <h5>
                         Lifeguard
                         <div style={{ fontSize: 14 }}>
-                          <i>Fargo Park District, June 2016-Present</i>
+                          <i>Fargo Park District, June 2016-August 2020</i>
                         </div>
                       </h5>
                       <ul style={{ listStyleType: "disc" }}>
@@ -186,28 +205,6 @@ export default function Resume() {
                     </li>
                     <br />
                     <br />
-                    <li>
-                      <h5 size={-3}>
-                        Delivery Driver
-                        <div style={{ fontSize: 14 }}>
-                          <i>Pizza Hut, August 2019-December 2019</i>
-                        </div>
-                      </h5>
-                      <ul style={{ listStyleType: "disc" }}>
-                        <li>
-                          Kept detailed records of sales, payments and completed
-                          or in-progress deliveries
-                        </li>
-                        <li>
-                          Fostered positive working relationships with customers
-                          by responding to questions and concerns
-                        </li>
-                        <li>
-                          Completed on-time deliveries by choosing best and most
-                          efficient routes
-                        </li>
-                      </ul>
-                    </li>
                   </ul>
                 </div>
               </div>

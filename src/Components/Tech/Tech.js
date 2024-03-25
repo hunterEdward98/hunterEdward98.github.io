@@ -5,140 +5,113 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  AccordionIcon,
 } from "@chakra-ui/core";
+import dayjs from "dayjs";
+
+let techIcons = [
+  "react-plain-wordmark",
+  "csharp-plain-wordmark",
+  "typescript-plain",
+  "javascript-plain ",
+  "postgresql-plain-wordmark",
+  "html5-plain-wordmark",
+  "css3-plain-wordmark",
+  "dot-net-plain-wordmark",
+];
+let workflowIcons = [
+  "git-plain-wordmark",
+  "trello-plain-wordmark",
+  "jira-plain-wordmark",
+  "bitbucket-plain-wordmark",
+  "confluence-plain-wordmark",
+];
+let environmentIcons = [
+  "vscode-plain",
+  "visualstudio-plain",
+  "unrealengine-plain-wordmark",
+  "unity-plain-wordmark",
+];
 const Projects = () => {
   return (
-    <Accordion className="col-12" defaultIndex={[0]}>
-      <AccordionItem>
-        <AccordionHeader className="col-12 text-center rounded Head">
-          <Box flex={1}>Proficient in</Box>
-        </AccordionHeader>
-        <AccordionPanel>
-          <div className="d-flex row justify-content-center">
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-react-original-wordmark  devicon rounded p-2"></i>
+    <>
+      My Experience in these technologies comes from
+      {dayjs().diff(dayjs("2020-11-06"), "years")} years of professional
+      experience at Scheels, where I lead the internal development team (SIS) in
+      modernizing and continuing to improve the frontend development process,
+      and attending Emerging Digital Academy before that.
+      <Accordion className="col-12" defaultIndex={[0]}>
+        <AccordionItem>
+          <AccordionHeader className="col-12 text-center rounded Head">
+            <Box flex={1}>Proficient in</Box>
+          </AccordionHeader>
+          <AccordionPanel>
+            <div className="d-flex row justify-content-center">
+              {techIcons.map((icon, i) => (
+                <div className=" col-4 col-md-2 rounded mt-5">
+                  <i class={`devicon-${techIcons[i]} devicon rounded p-2`} />
+                </div>
+              ))}
             </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-javascript-plain  devicon rounded p-2"></i>
+          </AccordionPanel>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader className="col-12 text-center rounded Head">
+            <Box flex={1}>Workflow</Box>
+          </AccordionHeader>
+          <AccordionPanel>
+            <div className="d-flex row justify-content-center">
+              {workflowIcons.map((icon, i) => (
+                <div className=" col-4 col-md-2 rounded mt-5">
+                  <i
+                    class={`devicon-${workflowIcons[i]} devicon rounded p-2`}
+                  />
+                </div>
+              ))}
             </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-jquery-plain-wordmark devicon rounded p-2"></i>
+          </AccordionPanel>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader className="col-12 text-center rounded Head">
+            <Box flex={1}>Operating Systems / Environments</Box>
+          </AccordionHeader>
+          <AccordionPanel>
+            <div className="d-flex row justify-content-center">
+              {environmentIcons.map((icon, i) => (
+                <div className=" col-4 col-md-2 rounded mt-5">
+                  <i
+                    class={`devicon-${environmentIcons[i]} devicon rounded p-2`}
+                  />
+                </div>
+              ))}
             </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-postgresql-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-html5-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-css3-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <div>
-                <i class="devicon-nodejs-plain devicon rounded p-2"></i>
+          </AccordionPanel>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader className="col-12 text-center rounded Head">
+            <Box flex={1}> Familiar With</Box>
+          </AccordionHeader>
+          <AccordionPanel>
+            <div className="d-flex row justify-content-center">
+              <div className=" col-4 col-md-2 rounded mt-5">
+                <i class="devicon-java-plain-wordmark devicon rounded p-2"></i>
+              </div>
+              <div className=" col-4 col-md-2 rounded mt-5">
+                <i class="devicon-python-plain-wordmark devicon rounded p-2"></i>
+              </div>
+              <div className=" col-4 col-md-2 rounded mt-5">
+                <i class="devicon-atom-plain-wordmark devicon rounded p-2"></i>
+              </div>
+              <div className=" col-4 col-md-2 rounded mt-5">
+                <i class="devicon-jquery-plain-wordmark devicon rounded p-2"></i>
+              </div>
+              <div className=" col-4 col-md-2 rounded mt-5">
+                <i class="devicon-express-original-wordmark  devicon rounded p-2"></i>
               </div>
             </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-express-original-wordmark  devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              {" "}
-              <i class="devicon-bootstrap-plain-wordmark  devicon rounded p-2"></i>
-            </div>
-          </div>
-        </AccordionPanel>
-      </AccordionItem>
-      <AccordionItem>
-        <AccordionHeader className="col-12 text-center rounded Head">
-          <Box flex={1}>Workflow</Box>
-        </AccordionHeader>
-        <AccordionPanel>
-          <div className="d-flex row justify-content-center">
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-git-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-heroku-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-slack-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-trello-plain-wordmark devicon rounded p-2"></i>
-            </div>
-          </div>
-        </AccordionPanel>
-      </AccordionItem>
-      <AccordionItem>
-        <AccordionHeader className="col-12 text-center rounded Head">
-          <Box flex={1}>Operating Systems / Environments</Box>
-        </AccordionHeader>
-        <AccordionPanel>
-          <div className="d-flex row justify-content-center">
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-linux-plain devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-ubuntu-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-debian-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-windows8-plain devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-visualstudio-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-github-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-gitlab-plain-wordmark devicon rounded p-2"></i>
-            </div>
-          </div>
-        </AccordionPanel>
-      </AccordionItem>
-      <AccordionItem>
-        <AccordionHeader className="col-12 text-center rounded Head">
-          <Box flex={1}> Familiar With</Box>
-        </AccordionHeader>
-        <AccordionPanel>
-          <div className="d-flex row justify-content-center">
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-cplusplus-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-csharp-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-java-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-python-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-dot-net-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-c-plain devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-sequelize-plain-wordmark devicon rounded p-2"></i>
-            </div>
-            <div className=" col-4 col-md-2 rounded mt-5">
-              <i class="devicon-atom-plain-wordmark devicon rounded p-2"></i>
-            </div>
-          </div>
-        </AccordionPanel>
-      </AccordionItem>
-    </Accordion>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+    </>
   );
 };
 export default Projects;

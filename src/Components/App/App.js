@@ -1,11 +1,6 @@
 import React from "react";
 import "./App.css";
-import {
-  HashRouter as Router,
-  NavLink,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, NavLink, Route } from "react-router-dom";
 import headshot from "../../Hunter3.jpg";
 import Bio from "../Bio/Bio";
 import Projects from "../Projects/Projects";
@@ -46,21 +41,12 @@ class App extends React.Component {
               </div>
             </div>
             <div className="container">
-              <Route exact path="/">
-                <Redirect to="/tech"></Redirect>
-              </Route>
-              <Route exact path="/bio">
-                <Bio />
-              </Route>
-              <Route exact path="/projects">
-                <Projects />
-              </Route>
-              <Route exact path="/resume">
-                <Resume />
-              </Route>
-              <Route exact path="/tech">
-                <Tech />
-              </Route>
+              <Routes>
+                <Route exact path="/bio" element={<Bio />} />
+                <Route exact path="/projects" element={<Projects />} />
+                <Route exact path="/resume" element={<Resume />} />
+                <Route exact path="/tech" element={<Tech />} />
+              </Routes>
             </div>
           </div>
         </div>
